@@ -42,6 +42,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
                     id={`pinTask-${id}`}
                     aria-label={`pinTask-${id}`}
                     key={`pinTask-${id}`}
+                    style={{ background: 'red', color: 'yellow' }}
                 >
                     <span className={`icon-star`} />
                 </button>
